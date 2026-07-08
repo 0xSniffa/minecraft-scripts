@@ -8,8 +8,8 @@ import sys
 
 def exit():
     minescript.execute("/tellraw @s {\"text\":\"Please supply a name and amount\",\"color\":\"green\"}")
-    minescript.execute("/tellraw @a [\"Usage: \",{\"text\":\"kill \",\"color\":\"aqua\"},{\"text\":\"<name> <amount>\",\"color\":\"dark_green\"}]")
-    minescript.execute("/tellraw @a [\"Example: \",{\"text\":\"kill \",\"color\":\"aqua\"},{\"text\":\"x 4\",\"color\":\"dark_green\"}]")
+    minescript.execute("/tellraw @s [\"Usage: \",{\"text\":\"kill \",\"color\":\"aqua\"},{\"text\":\"<name> <amount>\",\"color\":\"dark_green\"}]")
+    minescript.execute("/tellraw @s [\"Example: \",{\"text\":\"kill \",\"color\":\"aqua\"},{\"text\":\"x 4\",\"color\":\"dark_green\"}]")
     sys.exit(1)
 
 name = str(sys.argv[1]) if len(sys.argv) > 2 else exit()

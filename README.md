@@ -1,5 +1,9 @@
 # Scarpet + Minescript scripts
 
+# 
+>[!warning]
+> The scarpet scripts currently due not work. I'll investigate as soon as possible
+
 > [!NOTE]
 > - To run the `.py` scripts you'll need the [Minescript mod](https://minescript.net/).
 > - To run the `.sc` scripts you'll only need the [Carpet mod](https://modrinth.com/mod/carpet).

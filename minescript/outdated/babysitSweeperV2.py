@@ -4,8 +4,8 @@ import sys
 import time
 def exit():
     minescript.execute("/tellraw @s {\"text\":\"Please supply a name\",\"color\":\"green\"}")
-    minescript.execute("/tellraw @a [\"Usage: \",{\"text\":\"babysitV2 \",\"color\":\"aqua\"},{\"text\":\"<name>\",\"color\":\"dark_green\"}]")
-    minescript.execute("/tellraw @a [\"Example: \",{\"text\":\"babysitV2 \",\"color\":\"aqua\"},{\"text\":\"sweeper\",\"color\":\"dark_green\"}]")
+    minescript.execute("/tellraw @s [\"Usage: \",{\"text\":\"babysitV2 \",\"color\":\"aqua\"},{\"text\":\"<name>\",\"color\":\"dark_green\"}]")
+    minescript.execute("/tellraw @s [\"Example: \",{\"text\":\"babysitV2 \",\"color\":\"aqua\"},{\"text\":\"sweeper\",\"color\":\"dark_green\"}]")
     sys.exit(1)
 
 
