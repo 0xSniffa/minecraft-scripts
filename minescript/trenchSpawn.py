@@ -11,8 +11,6 @@ def exit():
 def roundHalf(num):
     return round(num - 0.5) + 0.5
 
-# -------- INFO ---------- 
-# If you find bugs feel free to report those. https://github.com/weirdge/minescript
 # -------- CONFIG --------
 timeInBetweenSpawn = 0.3
 # ------------------------

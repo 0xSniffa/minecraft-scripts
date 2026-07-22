@@ -2,7 +2,9 @@
 
 # 
 >[!warning]
-> The scarpet scripts currently due not work. I'll investigate as soon as possible
+> ## The scarpet scripts currently do not work. I'll investigate as soon as possible
+
+If you find problem open an issue [here](https://github.com/0xsniffa/minecraft-scripts/issues).
 
 > [!NOTE]
 > - To run the `.py` scripts you'll need the [Minescript mod](https://minescript.net/).
@@ -36,13 +38,12 @@ If it's heading **East-West** then enter the **most East** coordinate.
 
 ![Image](/src/gridSweeper.png)
 
-Open issue [here](https://github.com/weirdge/scarpet.minescript/issues).
 
 ---
 
 ## Trench bot spawner
 - [Minescript](./minescript/trenchSpawn.py)
-- [Scarpet](./scarpet/trench.sc)
+- [~~Scarpet~~](./scarpet/trench.sc) Currently broken
 >[!NOTE]
 > - This script requires the [Carpet mod](https://modrinth.com/mod/carpet) and it's [/player](https://github.com/gnembon/fabric-carpet/wiki/Commands#player) command
 
@@ -93,7 +94,7 @@ Example: `\killBots x 4`
 
 ### Get player rotation
 - [Minescript](./minescript/getPlayerRotation.py)
-- [Scarpet](./scarpet/getPlayerRotation.sc)
+- [~~Scarpet~~](./scarpet/getPlayerRotation.sc) Currently broken
 
 This script simply outputs the players rotation
 
