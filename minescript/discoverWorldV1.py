@@ -4,9 +4,9 @@ import time
 
 ## Change as you like
 renderDistance = 16 # render distance in chunks
-discoverDistance = 5000 # range of blocks to discover (in blocks)(square radius)
+discoverDistance = 2000 # range of blocks to discover (in blocks)(square radius)
 waitTime = 10 # time inbetween each teleport
-teleportHeight = 250 # height that the player is teleported to
+teleportHeight = 200 # height that the player is teleported to
 startCountdown = 8 # in seconds
 #### don't change
 

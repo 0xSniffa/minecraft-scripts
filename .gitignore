@@ -1,6 +1,6 @@
-system/
-test/
-dev/
-srcsrc/
-/blockpacks
-config.txt
+/*
+!minescript/
+!scarpet/
+!src/
+!.gitignore
+!README.md
