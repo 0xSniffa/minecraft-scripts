@@ -45,6 +45,7 @@ If it's heading **East-West** then enter the **most East** coordinate.
 - [Minescript](./minescript/trenchSpawn.py)
 - [~~Scarpet~~](./scarpet/trench.sc) Currently broken
 >[!NOTE]
+> - This is only needed for Trenchers that require a bottom trench. If you're using a Trenchless trencher there's no need in mining a bottom trench.
 > - This script requires the [Carpet mod](https://modrinth.com/mod/carpet) and it's [/player](https://github.com/gnembon/fabric-carpet/wiki/Commands#player) command
 
 Used for spawning bots to dig bottom trench of Trenchers
